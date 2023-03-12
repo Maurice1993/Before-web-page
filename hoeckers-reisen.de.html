@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Willkommen bei Hoeckers–Reisen – wir sind ein virtuelles Busunternehmen in Omsi 2. Entdecken Sie mit uns die schönsten Orte in Omsi 2.">
+    <title>hoeckers-reisen.de</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Deaktiviert das Scrollen */
+      }
+      #background-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+      body {
+        background-color: #1a1a1a;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      #homepage {
+        margin-top: 150px;
+        font-size: 35px;
+        padding: 40px 60px;
+      }
+      h1 {
+        font-size: 80px;
+        margin-top: 100px;
+        text-shadow: 8px 8px #333;
+      }
+      p {
+        font-size: 20px;
+        margin: 40px 0;
+        text-shadow: 3px 3px #333;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      a {
+        color: #fff;
+        font-weight: bold;
+        display: inline-block;
+        margin: 30px;
+        padding: 20px 30px;
+        border: 2px solid #fff;
+        border-radius: 35px;
+        text-decoration: none;
+        transition: all 0.35s ease-in-out;
+        background-color: transparent;
+      }
+      a:hover {
+        background-color: #fff;
+        color: #333;
+        box-shadow: 6px 6px #333;
+      }
+      p.links {
+        font-size: 30px;
+        margin-top: 130px;
+        text-shadow: 3px 3px #333;
+      }
+      /* Smartphone-Anpassung */
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 40px;
+          margin-top: 50px;
+        }
+        p {
+          font-size: 16px;
+          margin: 20px 0;
+        }
+        a {
+          margin: 20px;
+          padding: 15px 25px;
+        }
+        h2 {
+          font-size: 24px;
+          margin-top: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <video id="background-video" autoplay muted loop>
+      <source src="OMSI 2.mp4" type="video/mp4">
+    </video>
+    <h1>Willkommen bei Hoeckers Reisen</h1>
+    <a href="https://hoeckers-reisen.de/" id="homepage">Homepage</a>
+    <p class="links"><h2>Weitere Links</h2>
+	<a href="ts3server://ts.Hoeckers-Reisen.de">Unser Teamspeak3</a>
+    <a href="https://discord.gg/CwubBRRR5Q">Unser Discord</a>
+    <a href="https://github.com/Maurice1993">Mein GitHub</a>
+    <!-- Copyright-Hinweis -->
+    <footer>&copy; 2023 Hoeckers-Reisen by Maurice M.</footer> 
+  </body>
+</html>
